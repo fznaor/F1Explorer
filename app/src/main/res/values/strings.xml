@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">F1 Explorer</string>
+    <string name="stringRaceLabel">Race</string>
+    <string name="stringDriversLabel">Drivers</string>
+    <string name="stringGridLabel">Grid</string>
+    <string name="stringPositionLabelShort">Pos</string>
+    <string name="stringPointsLabelShort">Pts</string>
+    <string name="stringConstructorLabel">Constructor</string>
+    <string name="btnCircuitsText">Circuits</string>
+    <string name="btnConstructorsText">Constructors</string>
+    <string name="btnDriversText">Drivers</string>
+    <string name="btnSeasonsText">Seasons</string>
+    <string name="stringStatusLabel">Status</string>
+    <string name="stringPointsLabel">Points</string>
+    <string name="stringWinsLabel">Wins</string>
+    <string name="stringInfoStandingLabel">Championship position: %1$s.</string>
+    <string name="stringRaceNameShort">%1$s  %2$s</string>
+    <string name="stringResultsError">Sorry, these results are not available.</string>
+    <string name="stringStandingsError">Sorry, these standings are not available.</string>
+    <string name="stringTimeLabel">Time</string>
+    <string name="stringSeasonLabel">%1$s Season</string>
+    <string name="stringDriverLabel">Driver</string>
+    <string name="etSearchHint">Search</string>
+    <string name="ivFlagContentDescr">Country flag</string>
+</resources>

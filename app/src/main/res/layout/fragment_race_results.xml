@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stringPositionLabelShort"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:layout_marginEnd="@dimen/infoLabelMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="@string/stringDriversLabel"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:layout_marginEnd="@dimen/infoLabelMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/stringConstructorLabel"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:layout_marginEnd="@dimen/infoLabelMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:id="@+id/tvRaceResultsStatusLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="@string/stringStatusLabel"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:layout_marginEnd="@dimen/infoLabelMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:id="@+id/tvRaceResultsGridLabel"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stringGridLabel"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:textColor="@color/colorBackgroundText"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRaceResultsError"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorBackgroundText"
+        android:visibility="gone"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRaceResults"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+</LinearLayout>

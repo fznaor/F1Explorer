@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@color/colorToolbarTitle"
+        android:background="@color/colorPrimary"
+        >
+
+        <ImageView
+            android:id="@+id/ivInfoCountry"
+            android:contentDescription="@string/ivFlagContentDescr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/toolbarFlagMarginEnd"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTabBackground">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvInfoStandings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/stringInfoStandingLabel"
+        android:textColor="@color/colorInfoStandingsLabel"
+        android:textSize="@dimen/infoLabelTextSize"
+        android:textStyle="bold|italic"
+        android:layout_marginEnd="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:text="@string/stringRaceLabel"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:layout_marginStart="@dimen/infoLabelHorizontalMargin"
+            android:layout_marginEnd="@dimen/infoLabelHorizontalMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:id="@+id/tvInfoName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            tools:text="@string/stringConstructorLabel"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:layout_marginEnd="@dimen/infoLabelHorizontalMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stringGridLabel"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="@dimen/infoLabelTextSizeSmall"
+            android:layout_marginEnd="@dimen/infoLabelHorizontalMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stringPositionLabelShort"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:layout_marginEnd="@dimen/infoLabelHorizontalMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stringPointsLabelShort"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:textColor="@color/colorBackgroundText"
+            android:layout_marginEnd="20dp"
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvInfo"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+</LinearLayout>

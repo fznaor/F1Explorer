@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="infoLabelTextSize">15sp</dimen>
+    <dimen name="infoLabelTextSizeSmall">14sp</dimen>
+    <dimen name="infoLabelHorizontalMargin">5dp</dimen>
+    <dimen name="toolbarFlagMarginEnd">10dp</dimen>
+    <dimen name="appTitleSize">45sp</dimen>
+    <dimen name="raceSummaryCircuitMarginVertical">10dp</dimen>
+    <dimen name="cellChevronDimen">20dp</dimen>
+    <dimen name="cellVerticalPadding">5dp</dimen>
+    <dimen name="cellMargin">10dp</dimen>
+    <dimen name="cellInfoTextSize">20sp</dimen>
+    <dimen name="cellInfoMarginStart">10dp</dimen>
+    <dimen name="cellInfoIvCountryWidth">40dp</dimen>
+    <dimen name="cellResultTextSize">15sp</dimen>
+    <dimen name="cellResultMargin">5dp</dimen>
+    <dimen name="infoLabelMargin">5dp</dimen>
+    <dimen name="cellFlagWidth">40dp</dimen>
+</resources>

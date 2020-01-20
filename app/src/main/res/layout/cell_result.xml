@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorCell"
+    android:layout_marginBottom="@dimen/cellMargin"
+    android:paddingTop="@dimen/cellVerticalPadding"
+    android:paddingBottom="@dimen/cellVerticalPadding"
+    >
+
+    <TextView
+        android:id="@+id/tvResultRaceName"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="wrap_content"
+        tools:text="Australian GP"
+        android:textSize="@dimen/cellResultTextSize"
+        android:layout_marginStart="@dimen/cellResultMargin"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvResultName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        tools:text="Talbot Lago"
+        android:textSize="@dimen/cellResultTextSize"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvResultGridPosition"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        tools:text="17"
+        android:textAlignment="center"
+        android:textSize="@dimen/cellResultTextSize"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvResultRacePosition"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        tools:text="14"
+        android:textAlignment="center"
+        android:textSize="@dimen/cellResultTextSize"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvResultPoints"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        tools:text="8.14"
+        android:textAlignment="center"
+        android:textSize="@dimen/cellResultTextSize"
+        android:textColor="@color/colorCellText"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/cellChevronDimen"
+        android:layout_height="@dimen/cellChevronDimen"
+        android:src="@drawable/ic_chevron_right_white_24dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

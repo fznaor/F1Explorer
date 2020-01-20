@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llRaceResults"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorCell"
+    android:layout_marginBottom="@dimen/cellMargin"
+    android:paddingTop="@dimen/cellVerticalPadding"
+    android:paddingBottom="@dimen/cellVerticalPadding"
+    >
+
+    <TextView
+        android:id="@+id/tvRaceResultsPosition"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        tools:text="22"
+        android:textAlignment="center"
+        android:textSize="@dimen/cellResultTextSize"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvRaceResultsDriver"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        tools:text="M. Gugelmin"
+        android:textSize="@dimen/cellResultTextSize"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvRaceResultsConstructor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        tools:text="Alfa Romeo"
+        android:textSize="@dimen/cellResultTextSize"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvRaceResultsStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        tools:text="Alfa Romeo"
+        android:textSize="@dimen/cellResultTextSize"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvRaceResultsGrid"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        tools:text="10"
+        android:textAlignment="center"
+        android:textSize="@dimen/cellResultTextSize"
+        android:textColor="@color/colorCellText"
+        />
+
+</LinearLayout>

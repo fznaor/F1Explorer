@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llStandings"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorCell"
+    android:layout_marginBottom="@dimen/cellMargin"
+    android:paddingTop="@dimen/cellVerticalPadding"
+    android:paddingBottom="@dimen/cellVerticalPadding"
+    >
+
+    <TextView
+        android:id="@+id/tvStandingsPosition"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        tools:text="22"
+        android:textSize="@dimen/cellResultTextSize"
+        android:textAlignment="center"
+        android:layout_marginStart="@dimen/cellResultMargin"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvStandingsName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        tools:text="Y. Giraud-Cabantous"
+        android:textSize="@dimen/cellResultTextSize"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvStandingsConstructor"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        tools:text="Talbot Lago"
+        android:textSize="@dimen/cellResultTextSize"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvStandingsPoints"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        tools:text="14"
+        android:textAlignment="center"
+        android:textSize="@dimen/cellResultTextSize"
+        android:layout_marginEnd="@dimen/cellResultMargin"
+        android:textColor="@color/colorCellText"
+        />
+
+    <TextView
+        android:id="@+id/tvStandingsWins"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        tools:text="12"
+        android:textAlignment="center"
+        android:textSize="@dimen/cellResultTextSize"
+        android:textColor="@color/colorCellText"
+        />
+</LinearLayout>

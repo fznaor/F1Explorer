@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#263859</color>
+    <color name="colorPrimaryDark">#17223B</color>
+    <color name="colorAccent">#26A4F7</color>
+    <color name="colorBackground">#1B262C</color>
+    <color name="colorCell">#3282B8</color>
+    <color name="colorCellText">#FFFFFF</color>
+    <color name="colorTabText">#FFFFFF</color>
+    <color name="colorSpinnerText">#FFFFFF</color>
+    <color name="colorButtonText">#FFFFFF</color>
+    <color name="colorBackgroundText">#FFFFFF</color>
+    <color name="colorTabBackground">#0F4C75</color>
+    <color name="colorSpinnerBackground">#0F4C75</color>
+    <color name="colorButton">#3282B8</color>
+    <color name="colorSearchBar">#BBE1FA</color>
+    <color name="colorTitle">#BBE1FA</color>
+    <color name="colorToolbarTitle">#FFFFFF</color>
+    <color name="colorInfoStandingsLabel">#BBE1FA</color>
+</resources>

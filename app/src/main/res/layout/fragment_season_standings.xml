@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stringPositionLabelShort"
+            android:textStyle="italic"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:textAlignment="center"
+            android:layout_marginStart="@dimen/infoLabelMargin"
+            android:layout_marginEnd="@dimen/infoLabelMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:id="@+id/tvStandingsNameLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            tools:text="Driver"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:layout_marginEnd="@dimen/infoLabelMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:id="@+id/tvStandingsConstructorLabel"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            tools:text="Constructor"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:textSize="@dimen/infoLabelTextSize"
+            android:layout_marginEnd="@dimen/infoLabelMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stringPointsLabel"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:layout_marginEnd="@dimen/infoLabelMargin"
+            android:textColor="@color/colorBackgroundText"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stringWinsLabel"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/colorBackgroundText"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvStandingsError"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorBackgroundText"
+        android:visibility="gone"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSeasonStandings"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+</LinearLayout>
